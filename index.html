@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="utf-8">
+  <meta name="description" content="School Form">
+  <title>School Form</title>
+  <script>
+    function ins()
+    {
+     alert("Thanks For Click Me");
+    }
+  
+  </script> 
+  <style>
+   .ss{color: red; background-color: black; }
+   .p{color: red; background-color: black; }
+  </style>
+    
+ </head>
+ <body>
+  
+  <img src="unicef_logo.png" alt="ss">
+  <form>
+   <br>
+  <fieldset>
+   <legend>Login Information</legend>
+     <label>User Name :</label>
+    <input type="text" maxlength="15" autocomplete="on" placeholder="In English ....">
+     <label>Password :</label>
+    <input type="password" placeholder="Be Careful" class="p">
+    <input type="button" onclick="ins();" value="Click me" class="ss">
+   
+   
+   <br>
+ </fieldset>
+ <fieldset>
+   <legend>School Infomation</legend>
+   <label><B>Your school Name :</B></label>
+   <input type="text" placeholder="Your School Name">
+    <br>
+    <br>
+   <label><B>School Describtion :</B></label>
+    <br>
+   <textarea placeholder="Discribe Your School" cols="120" rows="10"></textarea>
+    <br>
+   </fieldset>
+   <fieldset>
+    <legend>Pesonal Onfomation</legend>
+     <label><B>Stage :</B></label>            <br>
+      <input type="radio" name="1">Praimary   <br>
+      <input type="radio" name="1">Prepratory <br>
+      <input type="radio" name="1">Secondry   <br>
+       <br>
+     <label><B>How Are You???</B></label>
+       <br>
+       <br>
+      <textarea placeholder="Describe Your Self" cols="120" rows="10"></textarea>
+       <br>
+       <br>
+      <label><B>Your mail :</B></label>
+      <input type="email" name="Email" placeholder="Your mail EX: me@me.me">
+      <br>
+      <br>
+      <label><B>Your Birthday</B></label>
+      <input type="date" name="day">
+      <br>
+      <br>
+      <label><B>Your Class :</B></label>
+      <select name="Class" size="1">
+       <option value="A">A</option>
+       <option value="A">B</option>
+     </select>
+   </fieldset>
+  <input type="submit" class="ss">
+   </form>
+ </body>
+    
+
+</html>
